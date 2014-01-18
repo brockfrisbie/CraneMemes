@@ -1,6 +1,20 @@
+$body-bg:		#ecf0f1;
+/* $navbar-inverse-bg:		*/		;
+$jumbotron-bg:	#3498db;
+
 @import 'bootstrap';
-	
-  body {
-    padding-top: 80px;
-    padding-bottom: 42px;
-  }
+
+	header {
+		font-family: Helvetica, Verdana;
+	}
+
+	nav {
+		font-family: Helvetica, Verdana;
+	}
+		
+	body {
+	padding-top: 80px;
+	padding-bottom: 42px;
+	font-family: Helvetica, Verdana;
+	color: black;
+	}
