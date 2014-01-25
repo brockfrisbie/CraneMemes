@@ -1,11 +1,28 @@
-$body-bg:		#ecf0f1;
+$body-bg:		black;
 /* $navbar-inverse-bg:		*/		;
-$jumbotron-bg:	#3498db;
+$jumbotron-bg:	black;
+$jumbotron-font-size: 20px; 
+$jumbotron-font-family: Helvetica, Verdana;
+$jumbotron-border-color: white;
+$jumbotron-border-size: 5px;
 
 @import 'bootstrap';
 
 	header {
 		font-family: Helvetica, Verdana;
+		font-weight: lighter;
+	}
+
+	h2 {
+		font-weight: lighter;
+		font-size: 40px;
+		color: white;
+	}
+
+	h3 {
+		font-weight: lighter;
+		font-size: 22px;
+		color: white;
 	}
 
 	nav {
@@ -13,8 +30,13 @@ $jumbotron-bg:	#3498db;
 	}
 		
 	body {
-	padding-top: 80px;
-	padding-bottom: 42px;
-	font-family: Helvetica, Verdana;
-	color: black;
+		padding-top: 80px;
+		padding-bottom: 42px;
+		font-family: Helvetica, Verdana;
+		color: white;
+		font-weight: lighter;
+	}
+
+	img {
+		border-radius: 5px;
 	}
